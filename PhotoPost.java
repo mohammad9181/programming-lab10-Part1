@@ -46,4 +46,9 @@ public class PhotoPost extends Post
     {
         return caption;
     }
+    
+    public String getImageAuther()
+    {
+        return (super.getUserName());
+    }
 }
